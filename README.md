@@ -13,6 +13,9 @@ An accelerometer captures tri-axial accelerometer data accounting for the x, y, 
 To fit within the tight memory constraints, training is broken into two phases. Phase I collects data for a configurable number of training windows and computes the averages. Phase II uses these averages and, using incoming data, computes the standard deviations for each feature. Again, the number of training windows is configurable. Finally, an infinite inference loop analyzes new time windows, computes averages, and determines how many standard deviations the new value is from the trained average. If this z-score value is greater than a threshold, that feature is marked as suspicious. If the number of suspicious features exceeds a threshold, an anomaly is reported.  
 In this project, an anomalous event triggers a radio transmission. This message is received by another Micro:bit, which flashes its LED grid to notify a human. 
 
+## Running on Micro:bit
+
+Code running on the Micro:bit must be flashed onto the device. The development environment provided by BBC micro:bit requires internet connection; therefore it is recommended to download and install the MU editor https://codewith.mu/. To flash code to the micro:bit, simply copy and paste the code into the editor and press the "flash" button. Note that each time you flash, the entire filesystem is wiped and you will lose any changes/additional files. 
 
 ## Hardware Requirements
 
