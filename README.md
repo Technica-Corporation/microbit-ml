@@ -19,9 +19,9 @@ Code running on the Micro:bit must be flashed onto the device. The development e
 
 There are two versions of the vibrational anomally detection (vib_detecion_mini_d1.py and vib_detecion_long__d1.py). This is because the extreme memory requirements necessitate code minification to avoid running out of memory. 
 
-**_       Flash vib_detecion_mini_d1.py onto device #1 for vibrational anomaly detection_**
+        Flash vib_detecion_mini_d1.py onto device #1 for vibrational anomaly detection
 
-**_       Flash anomaly_alert_d2.py onto device #2 to recieve anomalous alerts over radio_**
+        Flash anomaly_alert_d2.py onto device #2 to recieve anomalous alerts over radio
 
 ## Hardware Requirements
 
