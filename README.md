@@ -17,13 +17,13 @@ See the attached paper for more thorough documentation.
 
 ## Running on Micro:bit
 
-Code running on the Micro:bit must be flashed onto the device. The development environment provided by BBC Micro:bit requires internet connection; therefore it is recommended to download and install the MU editor https://codewith.mu/. To flash code to the Micro:bit, simply copy and paste the code into the editor and press the "flash" button. Note that each time you flash, the entire filesystem is wiped and you will lose any changes/additional files. 
+Code running on the Micro:bit must be flashed onto the device. The development environment provided by BBC Micro:bit requires internet connection; therefore it is recommended to download and install the MU editor (https://codewith.mu/). To flash code to the Micro:bit, simply copy and paste the code into the editor and press the "flash" button. Note that each time you flash, the entire filesystem is wiped and you will lose any changes/additional files. 
 
 There are two versions of the vibrational anomaly detection (vib_detecion_mini_d1.py and vib_detecion_long__d1.py). This is because the extreme memory requirements necessitate code minification to avoid running out of memory. 
 
-        Flash vib_detecion_mini_d1.py onto device #1 for vibrational anomaly detection
+        Flash "vib_detecion_mini_d1.py" onto device #1 for vibrational anomaly detection
 
-        Flash anomaly_alert_d2.py onto device #2 to  recieve anomalous alerts over radio
+        Flash "anomaly_alert_d2.py" onto device #2 to recieve anomalous alerts over radio
 
 ## Hardware Requirements
 
